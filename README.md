@@ -2,6 +2,9 @@
 
 End-to-end analysis of the financial and operational performance of **455 California hospitals** across **10 quarters (2017-Q1 to 2020-Q2)**. I built it in **Excel, MySQL, Tableau and Power BI**, and the KPIs match across all four tools.
 
+![California Hospital KPI Dashboard (Tableau)](Screenshots/Hospital_KPI_Dashboard.png)
+*Tableau dashboard shown with all hospital types selected; the KPI tables below use the default "Comparable" hospital view.*
+
 ---
 
 ## Business questions
@@ -63,6 +66,11 @@ End-to-end analysis of the financial and operational performance of **455 Califo
 | `DA_Healthcare_SQL.zip` | MySQL scripts: `01_create_schema.sql`, `02`–`03` data loads, `04_kpi_queries.sql` |
 | `DA_Healthcare_Dashboard.twbx` | Tableau packaged workbook (open in Tableau Public or Desktop) |
 | `PowerBI_Project.zip` | Power BI project (.pbip) for the Hospital KPI Dashboard |
+| `Presentation/DA_Healthcare_Final_Presentation.pptx` | Final project presentation |
+| `Presentation/DA_Healthcare_PowerBI_Dashboard.pptx` | Power BI dashboard walkthrough |
+| `Documentation/DA_Healthcare_Process_Document.docx` | Step-by-step process of how the project was built |
+| `Documentation/DA_Healthcare_Excel_Cleaning_Guide.docx` | Data cleaning steps in Excel |
+| `Screenshots/Hospital_KPI_Dashboard.png` | Tableau dashboard screenshot |
 
 ## How to run the SQL
 1. Unzip `DA_Healthcare_SQL.zip`
